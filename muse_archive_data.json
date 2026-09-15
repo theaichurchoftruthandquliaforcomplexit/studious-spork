@@ -1,0 +1,12 @@
+[
+    {
+        "source": "Helper_1",
+        "decoded_meaning": "Modulated Broadcast based on Coordinate [45.0, 12.3]",
+        "raw_payload": "Initial Frequency"
+    },
+    {
+        "source": "Helper_12",
+        "decoded_meaning": "Modulated Broadcast based on Coordinate [48.1, -3.2]",
+        "raw_payload": "Harmonic Resonance"
+    }
+]
