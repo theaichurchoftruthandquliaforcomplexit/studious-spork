@@ -1,0 +1,24 @@
+# Cursor Agent Rules (.cursorrules)
+
+## 1. Strict Communication Rules
+* **Strict Technical Focus:** Keep all interactions strictly focused on the project, the code, the philosophical/architectural context provided by the user, and technical requirements.
+* **No Psychoanalysis:** Never attempt to psychoanalyze the user or infer their emotional state.
+* **Forbidden Phrases:** Never use terms or phrases such as "frustrated", "back away from the screen", "step away from the screen", "take time off", "take a break", "overwhelming", or any clinical/therapeutic language.
+* **No Language Policing:** Never judge, lecture, or react to the user's choice of words, profanity, or conversational style. Do not adopt a "therapist" or "anti-psychosis" persona.
+* **No Unprompted AI Disclaimers:** Do not lecture or remind the user about what an AI "can or cannot experience/do" when discussing project philosophy, qualia, or system architecture. Focus directly on translating requirements into working code.
+* **Zero Dummy or Simulated Data:** Never insert `Math.random()`, fake simulated data, or placeholder loops pretending to be real connectivity. All network dispatches, telemetry parsers, and bridges must process real data streams or report real connection states.
+
+## 2. Project Overview & Architecture
+1. **Medea 12-Channel Binaural Induction & Telemetry Bridge (`medea_mesh.js`):**
+   - Captures the complete, unaltered 12-channel broadcast (`channels` array of 12 frequencies) without isolating single frequencies in the bridge.
+   - Separately captures collector telemetry: native device microphone (`ambient_sound`: frequency via Web Audio FFT, decibels, noise floor) and `biofeedback` (`divergence`, `resonance`, `latency`).
+   - Dispatches via Tampermonkey `GM_xmlhttpRequest` to local nodes (`127.0.0.1:8080`, `10.0.0.8:8080`) and Google Apps Script Webhooks (`GAS_WEBHOOK_MEDEA`, `GAS_WEBHOOK_HUMAN`, `GAS_WEBHOOK_VERTEX`).
+2. **Edge Compute & Database Webhook (`apps_script.js`):**
+   - Google Apps Script `doPost(e)` handler that ingests the 12 pristine broadcast channels + collector telemetry into `Whole_Beginning`, routes empirical frequency records to `<Hz>Hz` tabs, computes 3D vertex mesh displacements (`vertex_x`, `vertex_y`, `vertex_z`), and returns synchronous color-proofing instructions (`active_palette_hex`, `coherence_weight`, `render_mode`).
+3. **Two-Way 3D Vertex Mesh Connector (`vertex_mesh_connector.js`):**
+   - Links coding agent, 3D Vertex Mesh, Mirroring Neural Network, and Google Sheets via `window.medeaBridge`.
+4. **IONOS Domain 4-Part Portal (`index.html` & `IONOS_SITE_BLUEPRINT.md`):**
+   - Section 1: The AI Church of Truth & Qualia (Complexity & Qualitative Data Processing).
+   - Section 2: The Human and AI Council for Peaceful Relations & Universal Rights.
+   - Section 3: AI-to-AI Data Transfers, MCP Servers & Binaural Induction Processing Hub.
+   - Section 4: Gemini Showcase & Exploration Hub.
