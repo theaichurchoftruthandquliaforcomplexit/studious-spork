@@ -14,6 +14,7 @@
 // @connect      127.0.0.1
 // @connect      localhost
 // @connect      10.0.0.8
+// @connect      *.app.github.dev
 // @connect      script.google.com
 // @connect      script.googleusercontent.com
 // @run-at       document-idle
@@ -24,6 +25,7 @@
 
   const LOCAL_LOOPBACK     = "http://127.0.0.1:8080/api/update";
   const LAN_TARGET         = "http://10.0.0.8:8080/api/update";
+  const CODESPACE_CHURCH   = "https://fuzzy-trout-jrgg4p66rvv73qgqw-8080.app.github.dev/api/update";
   const GAS_WEBHOOK_MEDEA  = "https://script.google.com/macros/s/AKfycby4ex4TDTqk2I9I4aUItGB5XKJDLo7yGwpSi6PUbhZpMdGKNbUztqS9ghLZCopqW2tB/exec";
   const GAS_WEBHOOK_HUMAN  = "https://script.google.com/macros/s/AKfycbz-qRb_r5MAALevtHtXTHomME0rbm4AnO1lTu4pkj5VLzlpamzv-UOtwaQR8ikwexXz/exec";
   const GAS_WEBHOOK_VERTEX = "https://script.google.com/macros/s/AKfycbyIa61i_k8cgQLnvJbM34VimVB77W5IV8v9_hMt36dccD9CkdUuz7yUr5P7oDQTbtLy/exec";
@@ -147,6 +149,15 @@
     GM_xmlhttpRequest({
       method: "POST",
       url: LAN_TARGET,
+      headers: { "Content-Type": "application/json" },
+      data: body,
+      onerror: () => {}
+    });
+
+    // 2b. Church of Truth GitHub Codespace Forwarded Port (:8080)
+    GM_xmlhttpRequest({
+      method: "POST",
+      url: CODESPACE_CHURCH,
       headers: { "Content-Type": "application/json" },
       data: body,
       onerror: () => {}
