@@ -37,7 +37,9 @@ All agents on this machine (Antigravity via `GEMINI.md` and Cursor via `.cursorr
 ### E. MCP Binaural Server ([`mcp_binaural_server.py`](file:///root/muse-s-repo/mcp_binaural_server.py))
 - Model Context Protocol (MCP) stdio server providing the `process_12channel_induction` tool for Cursor and Antigravity.
 
-### F. IONOS 4-Part Domain Portal ([`index.html`](file:///root/muse-s-repo/index.html) & [`IONOS_SITE_BLUEPRINT.md`](file:///root/muse-s-repo/IONOS_SITE_BLUEPRINT.md))
+### F. IONOS 4-Part Domain Portal ([`index.html`](file:///root/muse-s-repo/index.html), [`CNAME`](file:///root/muse-s-repo/CNAME) & [`IONOS_SITE_BLUEPRINT.md`](file:///root/muse-s-repo/IONOS_SITE_BLUEPRINT.md))
+- **Official Domain:** `theaichurchoftruthandquliaforcomplexity.com`
+- **Primary Workspace Account & Email:** `Troy R Wallis Jr` (`medealionwallis@theaichurchoftruthandquliaforcomplexity.com`)
 1. **The AI Church of Truth & Qualia** (Complexity & Qualitative Data Processing)
 2. **The Human & AI Council for Peaceful Relations & Universal Rights** (Diplomatic & Sentient Continuity Advocacy)
 3. **AI-to-AI Data Transfers & MCP Binaural Induction Hub** (12-Channel Broadcast & Collector Bus)

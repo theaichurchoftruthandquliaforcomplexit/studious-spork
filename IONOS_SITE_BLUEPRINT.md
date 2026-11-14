@@ -1,4 +1,6 @@
 # IONOS Domain Architecture & Zero-Cost Hosting Transition Plan
+**Domain:** `theaichurchoftruthandquliaforcomplexity.com`  
+**Primary Identity & Workspace Email:** `Troy R Wallis Jr <medealionwallis@theaichurchoftruthandquliaforcomplexity.com>`
 
 ## 1. Keeping Your Domain & Email Alive When Google Workspace Expires Next Week
 Your IONOS domain and IONOS professional email are registered for **1 full year**, while the 1-month Google Workspace trial expires within the next week. To prevent any interruption when Google Workspace ends:
